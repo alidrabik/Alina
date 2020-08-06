@@ -18,12 +18,12 @@ public class Person {
     jan.stopien_naukowy = "profesor";
     jan.specjalizacja = "historia";
     jan.pensja = 8000;
-    jan.premia = jan.pensja * 12;
     jan.isTeacher = true;
 
 
     pawel.przedstawSie();
     jan.przedstawSie();
+    jan.obliczPremie();
 
 
 
